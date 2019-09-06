@@ -1,14 +1,47 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[{
+		"movieId": "adventure",
+		"title": "Adventure",
+		"movies": [{
+				"movieId": 1,
+				"title": "Harry Potter",
+				"genres": "Fanstasy, Adventure"
+			},
+			{
+				"movieId": 10,
+				"title": "Lord of the Ring",
+				"genres": "Fantasy, Adventure"
+			}
+		]
+	},
+	{
+		"movieId": "action",
+		"title": "Action",
+		"movies": [{
+				"movieId": 100,
+				"title": "MI - 4",
+				"genres": "Action"
+			},
+			{
+				"movieId": 1000,
+				"title": "The Dark Knight",
+				"genres": "Action"
+			}
+		]
+	},
+	{
+		"movieId": "thriller",
+		"title": "Thriller",
+		"movies": [{
+				"movieId": 44,
+				"title": "Avengers: Endgame",
+				"genres": "Action, Thriller"
+			},
+			{
+				"movieId": 55,
+				"title": "Inception",
+				"genres": "Thriller"
+			}
+		]
+	}
+
+]
