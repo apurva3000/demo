@@ -1,50 +1,35 @@
 {
 	"movielens":
-[{
-		"id": "adventure",
-		"title": "Adventure",
-		"movies": [{
-				"id": 1,
-				"title": "Harry Potter 4",
-				"genres": "Fanstasy, Adventure"
-			},
-			{
-				"id": 10,
-				"title": "Lord of the Ring",
-				"genres": "Fantasy, Adventure"
-			}
-		]
+	[{
+		"id": 1,
+		"title": "Harry Potter 4",
+		"genres": "Fanstasy, Adventure"
 	},
 	{
-		"id": "action",
-		"title": "Action",
-		"movies": [{
-				"id": 100,
-				"title": "MI - 4",
-				"genres": "Action"
-			},
-			{
-				"id": 1000,
-				"title": "The Dark Knight",
-				"genres": "Action"
-			}
-		]
+		"id": 10,
+		"title": "Lord of the Ring",
+		"genres": "Fantasy, Adventure"
 	},
 	{
-		"id": "thriller",
-		"title": "Thriller",
-		"movies": [{
-				"id": 44,
-				"title": "Avengers: Endgame",
-				"genres": "Action, Thriller"
-			},
-			{
-				"id": 55,
-				"title": "Inception",
-				"genres": "Thriller"
-			}
-		]
+		"id": 100,
+		"title": "MI - 4",
+		"genres": "Action"
+	},
+	{
+		"id": 1000,
+		"title": "The Dark Knight",
+		"genres": "Action"
+	},
+	{
+		"id": 44,
+		"title": "Avengers: Endgame",
+		"genres": "Action, Thriller"
+	},
+	{
+		"id": 55,
+		"title": "Inception",
+		"genres": "Thriller"
 	}
-
-]
+		
+	]
 }
